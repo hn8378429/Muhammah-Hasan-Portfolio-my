@@ -282,6 +282,7 @@ export default function Home() {
         { name: "HTML/CSS", percentage: 95 },
         { name: "JavaScript", percentage: 90 },
         { name: "TypeScript", percentage: 85 },
+              { name: "Tailwind CSS", percentage: 93 },
         { name: "Next.js", percentage: 88 }
       ]
     },
@@ -385,10 +386,9 @@ export default function Home() {
           </div>
           <div className="about-content">
             <div className="about-text">
-              <h3>I'm Muhammad Hasan, a passionate Full Stack Developer</h3>
-              <p>My journey in software development spans across frontend and backend technologies, with a special focus on creating seamless user experiences and robust applications.</p>
-              <p>Currently exploring the exciting world of Agentic AI and its applications in modern web development. I believe in continuous learning and staying updated with the latest technological trends to deliver cutting-edge solutions.</p>
-              <p>When I'm not coding, you can find me contributing to open-source projects, learning new technologies, or sharing my knowledge with the developer community. I'm always excited to take on new challenges and collaborate on innovative projects.</p>
+              <h3>I’m Muhammad Hasan, a passionate Front-End Developer dedicated to crafting responsive, modern, and user-friendly web experiences.</h3>
+              <p>My core skills include HTML, CSS, JavaScript, TypeScript, and Next.js, which I use to build clean, performant, and visually appealing websites. I’m also exploring the world of Agentic AI and how it can enhance the next generation of web applications.</p>
+              <p>I believe in continuous learning and enjoy turning creative ideas into real-world digital solutions. When I’m not coding, I love exploring new technologies, improving my skills, and collaborating with developers to build something meaningful.</p>
             </div>
             <div className="about-image">
               <div className="profile-image">
