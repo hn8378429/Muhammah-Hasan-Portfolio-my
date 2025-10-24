@@ -393,7 +393,7 @@ export default function Home() {
             <div className="about-image">
               <div className="profile-image">
                 <img 
-                  src="/profile.jpg" 
+                  src="\download (2).jpg" 
                   alt="Muhammad Hasan"
                   className="profile-photo"
                 />
