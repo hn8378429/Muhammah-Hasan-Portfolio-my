@@ -347,8 +347,8 @@ export default function Home() {
               </span>
               <span>Full Stack Developer & AI Enthusiast</span>
             </h1>
-            <p>Hi, I'm Muhammad Hasan — a creative Full Stack Developer passionate about building fast, modern, and intelligent web experiences.</p>
-            <p>I love transforming ideas into interactive, responsive, and visually stunning digital products using HTML, CSS, JavaScript, TypeScript, Next.js, and Tailwind CSS.</p>
+            <p>Hi, I’m Muhammad Hasan — a creative Full Stack Developer and AI enthusiast passionate about crafting fast, modern, and intelligent web experiences.</p>
+            <p>I love turning ideas into interactive, responsive, and visually captivating digital products using HTML, CSS, JavaScript, TypeScript, Next.js, and Tailwind CSS. Trained under the Governor IT Initiative at Governor House, Sindh, I’m also exploring Agentic AI to bridge the gap between web development and artificial intelligence.</p>
             <div className="btn-group">
               <a href="#projects" className="btn btn-primary">View My Work</a>
               <a href="#contact" className="btn btn-secondary">Get In Touch</a>
@@ -386,9 +386,10 @@ export default function Home() {
           </div>
           <div className="about-content">
             <div className="about-text">
-              <h3>I’m Muhammad Hasan, a passionate Front-End Developer dedicated to crafting responsive, modern, and user-friendly web experiences.</h3>
-              <p>My core skills include HTML, CSS, JavaScript, TypeScript, and Next.js, which I use to build clean, performant, and visually appealing websites. I’m also exploring the world of Agentic AI and how it can enhance the next generation of web applications.</p>
-              <p>I believe in continuous learning and enjoy turning creative ideas into real-world digital solutions. When I’m not coding, I love exploring new technologies, improving my skills, and collaborating with developers to build something meaningful.</p>
+              <h3>I’m Muhammad Hasan, a passionate Front-End Developer trained under the Governor IT Initiative at Governor House, Sindh.</h3>
+              <p>I specialize in HTML, CSS, JavaScript, TypeScript, and Next.js, which I use to build fast, responsive, and visually appealing web applications.</p>
+              <p>Currently, I’m also exploring Agentic AI at Governor House, learning how artificial intelligence can shape the future of modern web development.</p>
+              <p>I’m deeply committed to continuous learning and love transforming creative ideas into meaningful digital solutions. When I’m not coding, I enjoy exploring new technologies, improving my skills, and collaborating with other developers to create innovative and impactful projects.</p>
             </div>
             <div className="about-image">
               <div className="profile-image">
