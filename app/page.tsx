@@ -282,7 +282,7 @@ export default function Home() {
         { name: "HTML/CSS", percentage: 95 },
         { name: "JavaScript", percentage: 90 },
         { name: "TypeScript", percentage: 85 },
-              { name: "Tailwind CSS", percentage: 93 },
+        { name: "Tailwind CSS", percentage: 93 },
         { name: "Next.js", percentage: 88 }
       ]
     },
@@ -290,7 +290,7 @@ export default function Home() {
       category: "Backend Development",
       description: "Building robust server-side applications",
       items: [
-        { name: "Python", percentage: 85 }
+        { name: "Python", percentage: 20 }
       ]
     },
     {
@@ -347,8 +347,8 @@ export default function Home() {
               </span>
               <span>Full Stack Developer & AI Enthusiast</span>
             </h1>
-            <p>Hi, I’m Muhammad Hasan — a creative Full Stack Developer and AI enthusiast passionate about crafting fast, modern, and intelligent web experiences.</p>
-            <p>I love turning ideas into interactive, responsive, and visually captivating digital products using HTML, CSS, JavaScript, TypeScript, Next.js, and Tailwind CSS. Trained under the Governor IT Initiative at Governor House, Sindh, I’m also exploring Agentic AI to bridge the gap between web development and artificial intelligence.</p>
+            <p>Hi, I'm Muhammad Hasan — a creative Full Stack Developer and AI enthusiast passionate about crafting fast, modern, and intelligent web experiences.</p>
+            <p>I love turning ideas into interactive, responsive, and visually captivating digital products using HTML, CSS, JavaScript, TypeScript, Next.js, and Tailwind CSS. Trained under the Governor IT Initiative at Governor House, Sindh, I'm also exploring Agentic AI to bridge the gap between web development and artificial intelligence.</p>
             <div className="btn-group">
               <a href="#projects" className="btn btn-primary">View My Work</a>
               <a href="#contact" className="btn btn-secondary">Get In Touch</a>
@@ -386,10 +386,10 @@ export default function Home() {
           </div>
           <div className="about-content">
             <div className="about-text">
-              <h3>I’m Muhammad Hasan, a passionate Front-End Developer trained under the Governor IT Initiative at Governor House, Sindh.</h3>
+              <h3>I'm Muhammad Hasan, a passionate Front-End Developer trained under the Governor IT Initiative at Governor House, Sindh.</h3>
               <p>I specialize in HTML, CSS, JavaScript, TypeScript, and Next.js, which I use to build fast, responsive, and visually appealing web applications.</p>
-              <p>Currently, I’m also exploring Agentic AI at Governor House, learning how Agentic AI can shape the future of modern web development.</p>
-              <p>I’m deeply committed to continuous learning and love transforming creative ideas into meaningful digital solutions. When I’m not coding, I enjoy exploring new technologies, improving my skills, and collaborating with other developers to create innovative and impactful projects.</p>
+              <p>Currently, I'm also exploring Agentic AI at Governor House, learning how artificial intelligence can shape the future of modern web development.</p>
+              <p>I'm deeply committed to continuous learning and love transforming creative ideas into meaningful digital solutions. When I'm not coding, I enjoy exploring new technologies, improving my skills, and collaborating with other developers to create innovative and impactful projects.</p>
             </div>
             <div className="about-image">
               <div className="profile-image">
@@ -419,7 +419,10 @@ export default function Home() {
                   <div key={skillIndex} className="skill-item">
                     <div className="skill-header">
                       <span className="skill-name">{skill.name}</span>
-                      <span className="skill-percentage">{skill.percentage}%</span>
+                      <span className="skill-percentage">
+                        {/* Sirf AI & Machine Learning section mein "Learning" dikhao */}
+                        {skillCategory.category === "AI & Machine Learning" ? "Learning" : `${skill.percentage}%`}
+                      </span>
                     </div>
                     <div className="skill-bar">
                       <div 
