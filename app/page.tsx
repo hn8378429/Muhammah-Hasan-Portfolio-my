@@ -257,7 +257,7 @@ export default function Home() {
     {
       title: "E-commerce Platform",
       description: "Full-stack e-commerce solution with user authentication and modern responsive design.",
-      tech: ["Next.js", "Python", "Tailwind CSS"],
+      tech: ["Next.js", "TypeScript", "Tailwind CSS"],
       icon: "fas fa-shopping-cart"
     },
     {
