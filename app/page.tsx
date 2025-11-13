@@ -388,7 +388,7 @@ export default function Home() {
             <div className="about-text">
               <h3>I’m Muhammad Hasan, a passionate Front-End Developer trained under the Governor IT Initiative at Governor House, Sindh.</h3>
               <p>I specialize in HTML, CSS, JavaScript, TypeScript, and Next.js, which I use to build fast, responsive, and visually appealing web applications.</p>
-              <p>Currently, I’m also exploring Agentic AI at Governor House, learning how artificial intelligence can shape the future of modern web development.</p>
+              <p>Currently, I’m also exploring Agentic AI at Governor House, learning how Agentic AI can shape the future of modern web development.</p>
               <p>I’m deeply committed to continuous learning and love transforming creative ideas into meaningful digital solutions. When I’m not coding, I enjoy exploring new technologies, improving my skills, and collaborating with other developers to create innovative and impactful projects.</p>
             </div>
             <div className="about-image">
