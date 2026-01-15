@@ -237,7 +237,7 @@ export default function Home() {
       icon: 'fab fa-linkedin',
       title: 'LinkedIn',
       content: 'Muhammad Hasan',
-      link: 'https://linkedin.com/in/muhammad-hasan'
+      link: 'https://www.linkedin.com/in/muhammad-hasan-ab1ba32b5/'
     },
     {
       icon: 'fas fa-globe',
