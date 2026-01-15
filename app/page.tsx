@@ -619,7 +619,7 @@ export default function Home() {
               <h4>Connect</h4>
               <ul>
                 <li><a href="https://github.com/hn8378429" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/muhammad-hasan" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://www.linkedin.com/in/muhammad-hasan-ab1ba32b5/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                 <li><a href="mailto:hn8378429@gmail.com">Email</a></li>
                 <li><a href="#contact">Resume</a></li>
               </ul>
